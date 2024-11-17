@@ -16,9 +16,26 @@ binaryImg = imbinarize(claheImg, T);
 finalEnhancedText = imadjust(uint8(binaryImg) * 255);
 
 figure;
-subplot(2, 3, 1); imshow(img); title('Original Image');
-subplot(2, 3, 2); imshow(grayImg); title('Grayscale Image');
-subplot(2, 3, 3); imshow(denoisedImg); title('Denoised (Gaussian Filter)');
-subplot(2, 3, 4); imshow(claheImg); title('CLAHE Enhanced');
-subplot(2, 3, 5); imshow(binaryImg); title('Adaptive Thresholding (Sauvola)');
-subplot(2, 3, 6); imshow(finalEnhancedText); title('Final Enhanced Image');
+subplot(2, 3, 1);
+imshow(img);
+title('Original Image');
+
+subplot(2, 3, 2);
+imshow(grayImg);
+title('Grayscale Image');
+
+subplot(2, 3, 3);
+imshow(denoisedImg);
+title('Denoised (Gaussian Filter)');
+
+subplot(2, 3, 4);
+imshow(claheImg);
+title('CLAHE Enhanced');
+
+subplot(2, 3, 5);
+imshow(binaryImg); 
+title('Adaptive Thresholding (Sauvola)');
+
+subplot(2, 3, 6);
+imshow(finalEnhancedText);
+title('Final Enhanced Image');
