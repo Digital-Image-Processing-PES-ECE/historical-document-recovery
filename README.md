@@ -1,32 +1,26 @@
-# Project Name
+# Historical Document Recovery
 
 ### Project Description:
 #### Summary - 
 
 #### Course concepts used - 
-1. -
-2. -
-3. -
-   
-#### Additional concepts used -
-1. -
-2. -
-   
-#### Dataset - 
-Link and/or Explanation if generated
+1. Contrast Modification
+2. Binary Thresholding
+3. Image Binarization
+4. Noise Reduction
+5. Edge Detection
 
 #### Novelty - 
-1. -
-2. -
-3. -
+1. Analysing old text
+2. Digital Preservation
    
 ### Contributors:
-1. Name (SRN)
-2. Name (SRN)
+1. Bhaviksha N (PES1UG22EC054)
+2. Myla Kinnera Sri (PES1UG22EC904)
 
 ### Steps:
 1. Clone Repository
-```git clone https://github.com/Digital-Image-Processing-PES-ECE/project-name.git ```
+```git clone https://github.com/Digital-Image-Processing-PES-ECE/historical-document-recovery.git ```
 
 2. Install Dependencies
 ```pip install -r requirements.txt```
@@ -34,12 +28,8 @@ Link and/or Explanation if generated
 3. Run the Code
 ```python main.py (for eg.)```
 
-### Outputs:
-* Important intermediate steps
-* Final output images 
-
 ### References:
-1. -
-2. -
+1. 
+2. 
    
 ### Limitations and Future Work:
