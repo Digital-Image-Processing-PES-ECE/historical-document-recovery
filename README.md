@@ -11,9 +11,11 @@ This project helps to process an image to enhance text visibility, making it sui
 #### Course concepts used - 
 1. Contrast Modification
 2. Binary Thresholding
-3. Image Binarization
-4. Noise Reduction
-5. Edge Detection
+
+#### Additional concepts used - 
+1. Image Binarization
+2. Noise Reduction
+3. Edge Detection
 
 #### Novelty - 
 1. Analysing old text
@@ -31,7 +33,16 @@ This project helps to process an image to enhance text visibility, making it sui
 ```pip install -r requirements.txt```
 
 3. Run the Code
-```python main.py (for eg.)```
+```python main.py```
+
+### Outputs
+The provided codes are designed for processing and enhancing images of historical documents or degraded text to make them suitable for text recognition and analysis.
+1. MATLAB Code
+- Final Output: An enhanced binary image with text having improved visibility and contrast. This processed image is ready for manual reading, transcription, or use with OCR tools for automatic text recognition.
+- Purpose: To visually restore degraded text and prepare it for OCR or manual review.
+2. Python Code
+- Final Output: A visually enhanced image with fine text revealed, better contrast, and noise removed. The processed image is suitable for human interpretation or input into text recognition systems.
+- Purpose: Handles degraded documents effectively, making text more readable and enabling downstream applications like indexing or archiving.
 
 ### References:
 1. https://www.textmanuscripts.com/medieval/book-of-hours-use-of-bourges-204456?inventorySearch=0&p=49
